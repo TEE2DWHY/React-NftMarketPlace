@@ -2,41 +2,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2px;
-}
+  margin: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfdcdc;
 
-.connect-wallet {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  z-index: 0;
-  background: #fff;
-  overflow: hidden;
-  border: 2px solid #495057;
-  color: #495057;
-}
-.connect-wallet:hover {
-  color: #fff;
-}
-.connect-wallet:hover:after {
-  width: 100%;
-}
-.connect-wallet:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s ease;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background: #495057;
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20px;
+  }
 }

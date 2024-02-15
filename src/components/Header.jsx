@@ -5,9 +5,15 @@ const Header = () => {
     <>
       <header>
         <div className="left">
-          <h3>NFT MarketPlace</h3>
+          <h2 className="logo">NFT MarketPlace.</h2>
         </div>
-        <ConnectKitButton theme="nouns" />
+        <div className="right">
+          <ul>
+            <li>Home</li>
+            <li>Sell Nft</li>
+          </ul>
+          <ConnectKitButton theme="retro" />
+        </div>
       </header>
     </>
   );
